@@ -7,7 +7,7 @@ const Home = () => {
   const [NFTs, setNFTs] = useState([]);
   const [fetchForCollection, setFetchForCollection]=useState(false);
 
-  const api_key = "V-8VA9QxSxq4Ft4lWCWRHGkQSI6XaA90"
+  const api_key = "[The API Key from alchemyapi.io]";
 
   const fetchNFTs = async() => {
     let nfts; 
